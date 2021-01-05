@@ -68,18 +68,21 @@ clearButton.addEventListener('click', function(e){
 smallButton.addEventListener('click', function(e){
     reset();
     gridCreate(64);
+    color = "black";
 });
 
 // medium button
 mediumButton.addEventListener('click', function(e){
     reset();
     gridCreate(32);
+    color = "black";
 });
 
 // large button
 largeButton.addEventListener('click', function(e){
     reset();
     gridCreate(16);
+    color = "black";
 });
 
 //eraser
